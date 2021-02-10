@@ -1,0 +1,72 @@
+/*html {
+    font-family: 
+}
+*/
+
+.nav-link {
+    color: black;
+}
+.nav-link:hover {
+    color: black;
+    font-weight: bold;
+}
+.dropdown-item:hover {
+       font-weight: bold;
+}
+
+/*  U KOMBINACIJI S BOOTSTRAP-on
+
+ZAŠTO MI NE RADI DELAY? ILI SLOW MOTION EFEKT?
+
+SHORTHAND syntax:
+div {
+    transition: <property> <duration> <timing-function> <delay>;
+}*/
+
+/*  COLUMNS:HOVER*/
+.mycolumn {
+    transition: scale 2s ease 5s;
+ }
+.mycolumn:hover {
+    transform: scale(1.05);
+}
+
+/*  BUTTONS U COLUMNS:HOVER*/
+.mybutton {
+    border: 1px solid #212529;
+    border-radius: 10px;
+    background-color: none;
+    color: #212529;
+    font-size: 1rem;
+    padding: 0.5em 1em;
+    display: inline-block;
+    text-decoration: none;
+    margin: 25px 0;
+    transition: color 0.25s, border-color 0.25s, box-shadow 0.25s, translate 0.25s;
+  }
+
+.mybutton:hover {
+    border: 2px solid white;
+    background-color: #212529;
+    opacity: 0.9;
+    color: white;
+    box-shadow: 0 1em 1.5em -0.4em #7a7a7a;
+    transform: translateY(-0.25em);
+}
+/*  treba croppat i ujednačit veličine slika*/
+
+ .card-img-top {
+    filter: grayscale(100%);
+}
+
+ /*.img-fluid {
+     max-height:80%;
+ }
+ */
+     
+
+.logo {
+    font-family: 'Caveat', cursive;
+    font-size: 2rem;
+       
+}
